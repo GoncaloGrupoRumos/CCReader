@@ -12,7 +12,7 @@
 
 ## Requisitos
 >* Java Instalado
->* Software do Cartão do Cidadão (https://www.cartaodecidadao.pt/index.php_option=com_content&task=view&id=102&Itemid=44&lang=pt.html)
+>* [Software do Cartão do Cidadão](https://www.cartaodecidadao.pt/index.php_option=com_content&task=view&id=102&Itemid=44&lang=pt.html)
 
 ## Observações
 >Também é explicado como se pode guardar uma imagem com o formato de jpeg200 convertendo-a para jpg, para tal foi utilizada a classe **com.idrsolutions.image.jpeg2000.Jpeg2000Decoder** da livraria jdeli.
