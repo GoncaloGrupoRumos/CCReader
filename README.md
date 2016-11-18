@@ -4,11 +4,11 @@
 >### Mail.java
 >>Demonstra como utilizar as classes do javax:
 >>* javax.smartcardio.CardException - responsável por reportar os problemas com a deteção do sensor.
->>* javax.smartcardio.CardTerminal - responsável por detetar os leitores que estão conectados no computador.
+>>* javax.smartcardio.CardTerminal - responsável por detetar os leitores que estão ligados no computador.
 >>* javax.smartcardio.TerminalFactory - responsável por detetar o cartão no leitor.
 
 >### CartaoCidadao.java
->>Esta classe pode ser utilizada para conectar-se ao middleware desenvolvido pela Républica Portuguesa, desenvolvida de modo a facilitar a utilização do cartão do cidadão e recolha dos seus dados.
+>>Esta classe pode ser utilizada para conectar-se ao middleware desenvolvido pela República Portuguesa, desenvolvida de modo a facilitar a utilização do cartão do cidadão e recolha dos seus dados.
 
 >### [Codacy Review](https://www.codacy.com/app/Rumos/CCReader/dashboard)
 
