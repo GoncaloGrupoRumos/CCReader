@@ -398,7 +398,7 @@ public class CartaoCidadao
 		switch (errorNumber) {
 			case NO_READERS_FOUND:
 				errorMessage("Não foi detetado nenhum leitor de cartões.");
-				Runtime.getRuntime().exit(0);//Feixa a aplicação
+				Runtime.getRuntime().exit(0);//Fecha a aplicação
 				break;
 			case CARD_NOT_PRESENT:
 				errorMessage("Não foi possível aceder ao Cartão do Cidadão.\nVerifique se está corretamente inserido no leitor.");
