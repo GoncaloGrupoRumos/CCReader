@@ -26,3 +26,5 @@ try
 	e.printStackTrace();
 }
 ```
+
+## [Codacy Review](https://www.codacy.com/app/Rumos/CCReader/dashboard)
