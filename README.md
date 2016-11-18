@@ -1,6 +1,11 @@
 # CCReader
 Leitor de Cartões do Cidadão
 
+## Objetivo
+Neste pequeno aplicativo podemos encontrar um método de utilização da API do cartão do Cidadão da República Portuguesa.
+De modo a facilitar a sua utilização para projetos em java, foram criadas duas classes em java:
+* Mail.java
+* CartaoCidadao.java
 
 ## Requisitos
 * Java Instalado
