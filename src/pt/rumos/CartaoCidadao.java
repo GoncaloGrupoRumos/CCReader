@@ -130,7 +130,7 @@ public class CartaoCidadao
 	 */
 	private void initialize()
 	{
-		if (!libLoaded) { Runtime.getRuntime().exit(0); }//Feixa a aplicação caso não tenha sido possível carregar a API Portuguesa
+		if (!libLoaded) { Runtime.getRuntime().exit(0); }//Fecha a aplicação caso não tenha sido possível carregar a API Portuguesa
 		
 		try 
 		{
