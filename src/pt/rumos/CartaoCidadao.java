@@ -264,7 +264,6 @@ public class CartaoCidadao
 				pteid.Exit(0);
 			} catch (PteidException e) {
 				setErrorCode(e);
-				return false;
 			}
 		}
 		return true;
