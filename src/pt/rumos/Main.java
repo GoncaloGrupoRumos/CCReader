@@ -108,7 +108,7 @@ public class Main
 						}
 					} catch (CardException exception) { 
 						cardReader.errorMessage("Lertor de cartões removido.");
-						Runtime.getRuntime().exit(0);					
+						Runtime.getRuntime().halt(0);					
 					}
 				}
 			}, 0, 1000);//Verifica o estádo do leitor a cada segundo.

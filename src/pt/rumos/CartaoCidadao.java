@@ -130,7 +130,7 @@ public class CartaoCidadao
 	 */
 	private void initialize()
 	{
-		if (!libLoaded) { Runtime.getRuntime().exit(0); }//Fecha a aplicação caso não tenha sido possível carregar a API Portuguesa
+		if (!libLoaded) { Runtime.getRuntime().halt(0); }//Fecha a aplicação caso não tenha sido possível carregar a API Portuguesa
 		
 		try 
 		{
@@ -398,7 +398,7 @@ public class CartaoCidadao
 		switch (errorNumber) {
 			case NO_READERS_FOUND:
 				errorMessage("Não foi detetado nenhum leitor de cartões.");
-				Runtime.getRuntime().exit(0);//Fecha a aplicação
+				Runtime.getRuntime().halt(0);//Fecha a aplicação
 				break;
 			case CARD_NOT_PRESENT:
 				errorMessage("Não foi possível aceder ao Cartão do Cidadão.\nVerifique se está corretamente inserido no leitor.");
