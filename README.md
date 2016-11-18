@@ -10,6 +10,8 @@
 >### CartaoCidadao.java
 >>Esta classe pode ser utilizada para conectar-se ao middleware desenvolvido pela Républica Portuguesa, desenvolvida de modo a facilitar a >>útilização do cartão do cidadão e recolha dos seus dados.
 
+>### [Codacy Review](https://www.codacy.com/app/Rumos/CCReader/dashboard)
+
 ## Requisitos
 >* [Java Versão 8 ou Superior](https://www.java.com/en/download/)
 >* [Software do Cartão do Cidadão](https://www.cartaodecidadao.pt/index.php_option=com_content&task=view&id=102&Itemid=44&lang=pt.html)
@@ -26,5 +28,3 @@ try
 	e.printStackTrace();
 }
 ```
-
-## [Codacy Review](https://www.codacy.com/app/Rumos/CCReader/dashboard)
