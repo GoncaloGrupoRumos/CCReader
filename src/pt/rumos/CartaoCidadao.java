@@ -504,14 +504,8 @@ public class CartaoCidadao
 		try 
 		{
 			bufferedPhoto = imageDecoder.read(picture);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		try 
-		{
 			ImageIO.write(bufferedPhoto, "jpg", new File(folderPointer, fileName + ".jpg"));
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
