@@ -16,14 +16,13 @@
 
 ## Observações
 >Também é explicado como se pode guardar uma imagem com o formato de jpeg200 convertendo-a para jpg, para tal foi utilizada a classe **com.idrsolutions.image.jpeg2000.Jpeg2000Decoder** da livraria jdeli.
-``` ###Java
+```
 Jpeg2000Decoder imageDecoder = new Jpeg2000Decoder();
-
-		BufferedImage bufferedPhoto = null;
-		try 
-		{
-			bufferedPhoto = imageDecoder.read(picture);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+BufferedImage bufferedPhoto = null;
+try 
+{
+	bufferedPhoto = imageDecoder.read(picture);
+} catch (Exception e) {
+	e.printStackTrace();
+}
 ```
