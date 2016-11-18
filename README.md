@@ -8,7 +8,7 @@
 >>* javax.smartcardio.TerminalFactory - responsável por detetar o cartão no leitor.
 
 >### CartaoCidadao.java
->>Esta classe pode ser utilizada para conectar-se ao middleware desenvolvido pela Républica Portuguesa, desenvolvida de modo a facilitar a >>útilização do cartão do cidadão e recolha dos seus dados.
+>>Esta classe pode ser utilizada para conectar-se ao middleware desenvolvido pela Républica Portuguesa, desenvolvida de modo a facilitar a utilização do cartão do cidadão e recolha dos seus dados.
 
 >### [Codacy Review](https://www.codacy.com/app/Rumos/CCReader/dashboard)
 
@@ -17,7 +17,7 @@
 >* [Software do Cartão do Cidadão](https://www.cartaodecidadao.pt/index.php_option=com_content&task=view&id=102&Itemid=44&lang=pt.html)
 
 ## Observações
->Também é explicado como se pode guardar uma imagem com o formato de jpeg200 convertendo-a para jpg, para tal foi utilizada a classe **com.idrsolutions.image.jpeg2000.Jpeg2000Decoder** da livraria jdeli.
+>Também é explicado como se pode guardar uma imagem com o formato de jpeg200 convertendo-a para jpg, para tal foi utilizada a classe **com.idrsolutions.image.jpeg2000.Jpeg2000Decoder** da biblioteca jdeli.
 ```
 Jpeg2000Decoder imageDecoder = new Jpeg2000Decoder();
 BufferedImage bufferedPhoto = null;
